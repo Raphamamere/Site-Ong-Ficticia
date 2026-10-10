@@ -1,4 +1,4 @@
-# Esperança que Transforma — SPA
+# Bom Samaritano — SPA
 
 Projeto educacional de uma ONG convertido para uma Single Page Application (SPA) com HTML, CSS e JavaScript puro (ES Modules).
 
