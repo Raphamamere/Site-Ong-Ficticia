@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Conheça os projetos sociais da ONG Bom samaritano e cadastre-se como voluntário.">
+  <title>Bom samaritano</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <script type="module" src="../js/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo principal</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#/inicio" data-link aria-label="Bom samaritano — início">Bom samaritano</a>
+      <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav-list">☰</button>
+      <nav class="main-nav" aria-label="Navegação principal">
+        <ul class="nav-list" id="nav-list">
+          <li><a href="#/inicio" data-link>Início</a></li>
+          <li><a href="#/projetos" data-link>Projetos</a></li>
+          <li><a href="#/voluntariado" data-link>Seja voluntário</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main id="conteudo" tabindex="-1" aria-live="polite">
+    <div class="loading" role="status">Carregando conteúdo…</div>
+  </main>
+  <footer class="site-footer"><div class="container"><p>&copy; 2026 Bom samaritano. Todos os direitos reservados.</p></div></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <dialog class="project-dialog" id="project-dialog" aria-labelledby="dialog-title">
+    <div class="dialog-content">
+      <button class="dialog-close" type="button" aria-label="Fechar detalhes">&times;</button>
+      <h2 id="dialog-title"></h2><p id="dialog-text"></p>
+    </div>
+  </dialog>
